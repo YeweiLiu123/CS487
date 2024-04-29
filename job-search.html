@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Searching - Student App</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Job Searching</h1>
+        <nav>
+            <a href="index.html">Back to Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Job Type Selection Section -->
+        <section id="job-type-section" class="screen">
+            <h2>Job Type Selection</h2>
+            <form id="job-search-form">
+                <label for="job-type">Choose Job Type:</label>
+                <select id="job-type" name="job-type">
+                    <option value="internship">Internship</option>
+                    <option value="full-time">Full-time</option>
+                    <option value="part-time">Part-time</option>
+                    <!-- Add more job types as needed -->
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Resume Help Section -->
+        <section id="resume-help-section" class="screen">
+            <h2>Resume Help</h2>
+            <div id="resume-help-content">
+   
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Student App</p>
+    </footer>
+
+    <script src="job-search.js"></script> <!-- Link to job search JavaScript file -->
+</body>
+</html>
